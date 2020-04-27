@@ -271,6 +271,17 @@
     font-size: 0.675rem;  
   }
 }
+@media all and (min-width: 600px) {
+  #logo{
+    margin-left: 150%;
+  }
+  .nav-list{
+    margin-top: 5%;
+    margin-left: 19%;
+  }
+
+}
+
 
 @media all and (min-width: 700px) {
 

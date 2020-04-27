@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* @media all and (min-width:320px) { */
+  .nav {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+
+  #logo {
+    margin-left:71%;
+    margin-bottom: 2%;
+
+  }
+
+  a.nav-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #4D4D4D;;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+
+  }
+ 
+
+  .nav-list {
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    margin-top: 5%;
+    flex-wrap: wrap;
+
+    margin-left: 4%;
+  }
+
+  .nav-items {
+    margin-left: 42px;
+    font-size: 0.7rem;
+  }
+
+  .nav-link {
+    text-decoration: none;
+  }
+
+  .nav-btn {
+    margin-left: 31%;
+    background-color: #F53030;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 1%;
+    min-width: 34%;
+    border: solid #F53030;
+    margin-top: 7%;
+    cursor: pointer;
+
+  }
+
+  .header-container {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./img/img.png);
+    height: 501px;
+    position: relative;
+    background-position: -217px -133px;
+  }
+
+  .rectangle {
+    position: absolute;
+    height: 70%;
+    width: 85%;
+    border: solid #fff;
+    border-width: 2px;
+    top: 13%;
+    left: 8%
+  }
+
+  .p1 {
+    position: absolute;
+    font-size: 1rem;
+    left: 29.8%;
+    top: 22%;
+    color: #fff;
+  }
+
+  .head-title {
+    position: absolute;
+    left: 14%;
+    top: 37%;
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .head-title2 {
+    position: absolute;
+    left: 25%;
+    top: 44%;
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  .p2 {
+    position: absolute;
+    left: 10%;
+    font-size: 0.6rem;
+    top: 66%;
+    color: #fff;
+  }
+
+  .line {
+    position: absolute;
+    width: 250px;
+    height: 47px;
+    border-bottom: 2px solid #fff;
+    left: 18%;
+    top: 44%;
+  }
+
+  .head-btn {
+    position: absolute;
+    background-color: #F53030;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    top: 79%;
+    left: 33.1%;
+    border: solid #F53030;
+    width: 150px;
+    cursor: pointer;
+  }
+
+  .togglebtn {
+    margin-top: 3.3%;
+    margin-left: 9%;
+    cursor: pointer;
+
+  }
+  .sidenav {
+    display: none;
+
+  }
+  .body-section {
+    margin-top: -1px;
+    background: #F1F0F0;
+
+  }
+  .p3 {
+    padding: 4%;
+    margin-left: 36%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4D4D4D;
+  }
+  .story-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .body-img{
+    width: 300px;
+    margin-left: 14%;
+  }
+
+  .side-text {
+    margin-left: 9%;
+    margin-top: 2%;
+
+  }
+
+  .p4 {
+    font-size: 0.7rem;
+    color: #4D4D4D;
+    line-height: 198%;
+  }
+
+  .body-btn {
+    background-color: #F53030;
+    color: #fff;
+    padding: 10px;
+    border: solid #F53030;
+    font-size: 0.875rem;
+    width: 180px;
+    margin-top: 5%;
+    margin-left: 19%;
+    cursor: pointer;
+    
+  }
+  .side-pills{
+    display: none;
+  }
+
+  /* .services {
+    margin-top: -113%;
+  } */
+
+  .p5 {
+    margin-left: 34%;
+    color: #4D4D4D;
+  }
+
+  .service-section {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+  }
+
+  .rec {
+     
+    width: 30%;
+    border-bottom: 10px solid #F53030;
+    background-color: #FFF;
+    padding: 2%;
+    margin-left: -64%;
+    margin-bottom: 21%;
+
+  }
+
+  .icon {
+    margin-left: 21%;
+    margin-bottom: 10%;
+
+  }
+
+  .p6 {
+    font-size: 1rem;
+    margin-left: 13%;
+    color: #4D4D4D;
+
+  }
+
+  .p7 {
+
+    display: none;
+
+  }
+
+
+  .rec2 {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    border-bottom: 10px solid #008C8D;
+    background-color: #fff;
+    padding: 2%;
+    top: 28%;
+  }
+
+  .p7a {
+
+    display: none;
+
+  }
+
+  .p6a {
+    font-size: 1rem;
+    margin-left: 16%;
+    color: #4D4D4D;
+
+  }
+
+  .rec3 {
+    position: absolute;
+    left: 67%;
+    width: 30%;
+    border-bottom: 10px solid #F53030;
+    background-color: #fff;
+    padding: 2%;
+  }
+
+  .p6b {
+    font-size: 1rem;
+    margin-left: 22%;
+    color: #4D4D4D;
+  }
+  .p7b {
+   display: none;
+  }
+  footer {
+    background-color: #008C8D;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .quick-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 5%;
+    margin-top: -6%;
+  }
+
+  .p8 {
+    color: #fff;
+    margin-top: 30%;
+    margin-bottom: 1%;
+    font-size: 0.675rem;
+    font-weight: bold;
+  }
+
+  .foot-link {
+    color: #fff;
+    margin-top: 8%;
+    font-size: 0.675rem;
+    font-weight: normal;
+  }
+
+  .contact {
+    margin-top: 2%;
+    position: absolute;
+    left: 41%;
+  }
+  .p8a {
+    color: #fff;
+    font-size: 0.675rem;
+    font-weight: bold;
+  }
+  .p9 {
+    color: #fff;
+    margin-top: 5%;
+    font-size: 0.675rem;
+    font-weight: normal;
+  }
+
+  .p9a {
+    color: #fff;
+    margin-top: 6%;
+    font-size: 0.675rem;
+    font-weight: normal;
+  }
+
+  .ig {
+    margin-top: 10%;
+  }
+
+  .linked {
+    margin-left: 8%
+  }
+
+  .policy {
+    margin-top: 2%;
+    position: absolute;
+    left: 78%;
+
+  }
+
+  .p8b {
+    color: #fff;
+    font-size: 0.675rem;
+    font-weight: bold;
+  }
+
+  .p9c {
+    color: #fff;
+    margin-top: 24%;
+    font-size: 0.675rem;
+    font-weight: normal;
+  }
+
+  .upto-date {
+    margin-top: 42%;
+    margin-left: 11%;
+    margin-bottom: 10%;
+  }
+
+  .p10 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .enter {
+    min-width: 91%;
+    padding: 2%;
+    margin-top: 3%;
+  }
+
+  .subscribe {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #008C8D;
+    margin-top: 5%;
+    padding: 3%;
+    width: 46%;
+    cursor: pointer;
+
+  }
+
+  .last-foot {
+    margin-top: 73%;
+    margin-left: 23%;
+    display: flex;
+    position: absolute;
+
+  }
+
+  .p11 {
+    color: #CCCCCC;
+    font-size: 0.575rem;
+    margin-left: -19%;
+  }
+
+  .p12 {
+    margin-left: 9%;
+    color: #CCCCCC;
+    font-size: 0.575rem;
+  }

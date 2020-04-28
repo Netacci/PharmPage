@@ -11,7 +11,7 @@
 
   .nav-list {
     margin-top: 5%;
-    margin-left: -7%;
+    margin-left: -10%;
   }
 
   .nav-items {
@@ -51,8 +51,8 @@
   }
 
   .p2 {
-    left: 10%;
-    font-size: 0.7rem;
+    left: 16%;
+    font-size: 0.6rem;
     top: 66%;
 
   }
@@ -85,6 +85,8 @@
 
   .body-img{
     margin-left: 5%;
+    width: 270px;
+
   }
 
   .side-text {
@@ -119,8 +121,8 @@
   }
 
   .nav-list {
-    margin-top: 5%;
-    margin-left: 11%;
+    margin-top: 8%;
+    margin-left: -17%;
   }
 
   .nav-items {
@@ -129,7 +131,7 @@
   }
 
   .togglebtn {
-    margin-top: 4.4%;
+    margin-top: 7.4%;
     margin-left: 12%;
 
   }
@@ -270,6 +272,16 @@
   .p11, .p12{  
     font-size: 0.675rem;  
   }
+}
+@media all and (min-width: 600px) {
+  #logo{
+    margin-left: 150%;
+  }
+  .nav-list{
+    margin-top: 8%;
+    margin-left: -8%;
+  }
+
 }
 
 @media all and (min-width: 700px) {
@@ -597,9 +609,6 @@
   }
 
   .quick-links {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
     left: 6%;
   }
 
@@ -608,8 +617,8 @@
     margin-bottom: 10%;
   }
 
-  .foot-link, .p9a, .p9c{
-    font-size: 0.775rem;
+  .p8, .foot-link, .p8a, .p9, .p9a, .p8b,.p9c{
+    font-size: 0.675rem;
   }
 
   .contact {
@@ -619,7 +628,6 @@
 
   .p9 {
     margin-top: 11%;
-    font-size: 0.775rem;
   }
 
   .policy {

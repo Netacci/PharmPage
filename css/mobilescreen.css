@@ -278,11 +278,15 @@
     margin-left: 150%;
   }
   .nav-list{
-    margin-top: 8%;
-    margin-left: -8%;
+    margin-top: 5%;
+    margin-left: 19%;
+  }
+  .togglebtn{
+    margin-top: 4.4%;
   }
 
 }
+
 
 @media all and (min-width: 700px) {
 

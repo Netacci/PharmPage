@@ -487,6 +487,20 @@ a {
     font-size: 1rem;
   }
 
+  .quick-links {
+    margin-top: 13%;
+  }
+
+  .policy {
+    grid-column: 3;
+    margin-top: 13%;
+  }
+
+  .upto-date {
+    grid-column: 4;
+    grid-row: 1;
+  }
+
   .foot-link,
   .cont-p {
     font-size: 0.875rem;

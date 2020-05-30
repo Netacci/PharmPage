@@ -4,60 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pharm Landing Page</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="./css/mobilescreen.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/widescreen.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
   </head>
   <body>
-    <!-- <div id="sidenav" class="sidenav">
-      <button class="nav-btn">Log in/Register</button>
-    </div> -->
-    <div class="container" id="container">
-      <div class="nav">
-        <a href=""><img id="logo" src="./img/logo.png" alt="logo" /></a>
+    <div class="container">
+      <header class="head-wrap">
+        <nav class="navbar">
+          <a href=""><img id="logo" src="./img/logo.png" alt="logo" /></a>
+          <div class="navlist">
+            <a class="navlink" href="#products">Products</a>
+            <a class="navlink" href="">Blog</a>
+            <a class="navlink" href="#about">About</a>
+            <a class="navlink" href="#contact">Contact</a>
+            <a class="navbtn-link" href=""><button class="nav-btn btn">Log in/Register</button></a>
+          </div>
+          <i id="bar" class="fas fa-bars hambug"></i>
+          <i id="close" class="fas fa-times closeham"></i>
 
-        <ul class="nav-list">
-          <a class="nav-link" href="#products"><li class="nav-items">Products</li></a>
-          <a class="nav-link" href=""><li class="nav-items">Blog</li></a>
-          <a class="nav-link" href="#about"><li class="nav-items">About</li></a>
-          <a class="nav-link" href="#contact"><li class="nav-items">Contact</li></a>
-        </ul>
-        <div class="togglebtn">
-          <a id="btntoggle" onclick="toggleNav()">☰</a>
+        </nav>
+        <nav id="mobilenav" class="mobile-navlist">
+          <div class="mobilenavlist">
+            <a class="navlink" href="#products">Products</a>
+            <a class="navlink" href="">Blog</a>
+            <a class="navlink" href="#about">About</a>
+            <a class="navlink" href="#contact">Contact</a>
+            <a href=""><button class="nav-btn">Log in/Register</button></a>
+          </div>
+        </nav>
+        <div class="head-body">
+          <div class="wrap">
+            <!-- <div class="rectangle"></div> -->
+            <p class="p1">Your health is our priority</p>
+            <h1 class="head-title">TOO EXPENSIVE OR CAN'T FIND A PRODUCT YOU NEED?</h1>
+            <div class="line"></div>
+            <p class="p2">
+              We have it all and at the best prices! Place your order now.
+            </p>
+            <a class="headbtn-link" href=""><button class="head-btn btn">GET STARTED</button></a>
+          </div>
         </div>
-        <div id="sidenav" class="sidenav">
-          <a href=""><button class="nav-btn">Log in/Register</button></a>
-        </div>
-        <div  class="sidenav">
-          <a href=""><button class="nav-btn">Log in/Register</button></a>
-        </div>
-      </div>
-      <div class="header-container">
-        <div class="rectangle"></div>
-        <p class="p1">Your health is our priority</p>
-        <h1 class="head-title">TOO EXPENSIVE OR CAN'T FIND A</h1>
-        <h1 class="head-title2">PRODUCT YOU NEED?</h1>
-        <div class="line"></div>
-        <p class="p2">
-          We have it all and at the best prices! Place your order now.
-        </p>
-        <a href=""><button class="head-btn">GET STARTED</button></a>
-      </div>
+      </header>
+     
       <section class="body-section">
         <div id="about" class="story">
-          <p class="p3">Our Story</p>
+          <h2 class="p3 text">Our Story</h2>
           <div class="story-section">
-            <div class="col-6">
               <img class="body-img" src="./img/img2.png" alt="Pharm Image" />
-            </div>
-            <div class="col-6 side-text">
-              <p class="p4">
+              <p class="story-p">
                 We have been in business for more than 10 years and all our
                 programs are centered around making our patients’ pharmarcy
                 experience as convenient and educational as possible. Lately,
@@ -66,105 +63,96 @@
                 also serve a large Yoruba speaking population and make every
                 effort to provide resources necessary...
               </p>
-              <a href=""><button class="body-btn">Read More</button></a>
-            </div>
-          </div>
+              <a class="story-link" href=""><button class="story-btn btn">Read More</button></a>
+           </div>
         </div>
         <div class="pills">
           <img class="side-pills" src="./img/pills.png" alt="pills image" />
         </div>
         <div id="products" class="services">
-          <p class="p3 p5">Our Services</p>
+          <h2 class="service-text text">Our Services</h2>
           <div class="service-section">
             <div class="rec">
               <img class="icon" src="./img/calender.svg" alt="">
-              <p class="p6">Book an apointment today</p>
-              <p class="p7">
+              <h3 class="rec-title">Book an apointment today</h3>
+              <p class="rec-p">
                 Pharmacists are key providers in delivering health education,
                 accountability that assist in lowering overall healthcare costs.
               </p>
             </div>
-            <div class="rec2">
+            <div class="rec2 rec">
               <img class="icon" src="./img/delivery.svg" alt="">
-              <p class="p6a">Doorstep delivery</p>
-              <p class="p7a">
+              <h3 class="rec-title">Doorstep delivery</h3>
+              <p class="rec-p">
                 Have your drugs delivered to you after placing your order in the fastest time possible.
               </p>
             </div>
-            <div class="rec3">
+            <div class="rec3 rec">
               <img class="icon" src="./img/pill-icon.svg" alt="">
-              <p class="p6b">Drug theraphy</p>
-              <p class="p7b">
+              <h3 class="rec-title">Drug theraphy</h3>
+              <p class="rec-p">
                 We offer the service of ensuring that patients take their medications as prescribed by the doctor.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <footer id="contact">
+      <footer id="contact" class="foot">
         <div class="quick-links">
-          <p class="p8">JULIE PHARMACY</p>
-          <a class="foot-link" href="">About us</a>
-          <a class="foot-link" href="">Products</a>
-          <a class="foot-link" href="">Blog</a>
-          <a class="foot-link" href="">Careers</a>
+          <h2 class="quick-title">JULIE PHARMACY</h2>
+          <div class="foot-list">
+            <a class="foot-link" href="">About us</a>
+            <a class="foot-link" href="">Products</a>
+            <a class="foot-link" href="">Blog</a>
+            <a class="foot-link" href="">Careers</a>
+          </div>
+          
         </div>
         <div class="contact">
-          <p class="p8a">CONTACT</p>
-          <p class="p9">24, Bala Rabe Street,</br> Victoria Island, Lagos.</p>
-          <p class="p9a">Phone: 234(1) 80 3333</p>
+          <h2 class="cont-title quick-title">CONTACT</h2>
+          <p class="cont-p">24, Bala Rabe Street,</br> Victoria Island, Lagos.</p>
+          <p class="cont-p">Phone: 234(1) 80 3333</p>
           <a href=""><img class="ig" src="./img/ig.svg" alt=""></a>
           <a href=""><img class="linked"src="./img/Linkedin.svg" alt=""></a>
         </div>
         <div class="policy">
-          <p class="p8b">PRIVACY POLICY</p>
-          <a href=""><p class="p9c">FAQ</p></a>
+          <h2 class="policy-title quick-title">PRIVACY POLICY</h2>
+          <a href=""><p class="policy-p cont-p">FAQ</p></a>
         </div>
         <div class="upto-date">
-          <p class="p10">Stay upto date with your health</p>
+          <h2 class="date-title">Stay upto date with your health</h2>
           <input class="enter" name="email" type="email" placeholder="Type your email here">
           <button class="subscribe">SUBSCRIBE</button>
-         
         </div>
         <div class="last-foot">
-          <p class="p11">Copyright 2020 Julie Pharmacy</p>
-          <p class="p12">CPPA accredited</p>
+          <p class="copy-text">Copyright 2020 Julie Pharmacy</p>
+          <p class="copy-text">CPPA accredited</p>
         </div>
       </footer>
     </div>
-   
-  </body>
-  <script>
-    var sidebar = 0;
-    function toggleNav(){
+   <script>
+      let hamburger = document.getElementById("bar");
+      let closemenu = document.getElementById("close");
+      let nav = document.getElementById("mobilenav");
 
-      if (sidebar === 0){
-        
-        document.getElementById("container").style.marginLeft="-200px"
-        document.getElementById("container").style.marginRight="200px"
-        document.getElementById("sidenav").style.display="block" 
-        document.getElementById("sidenav").style.width="200px"
-        document.getElementById("sidenav").style.marginLeft="100%"
-        document.getElementById("sidenav").style.position="absolute"
-        document.getElementById("sidenav").style.top="12%"
-      } else{
+      hamburger.addEventListener("click", openMenu);
+      closemenu.addEventListener("click", closeMenu);
 
-        document.getElementById("container").style.marginLeft="0px"
-        document.getElementById("container").style.marginRight="0px"
-        document.getElementById("sidenav").style.display="none"
-        document.getElementById("sidenav").style.marginLeft="0%"
-        document.getElementById("sidenav").style.position="inherit"
-        document.getElementById("sidenav").style.top="0%"
+      function openMenu(e) {
+        if (e.target.classList.contains("hambug")) {
+          hamburger.style.display = "none";
+          closemenu.style.display = "block";
+          nav.style.display = "block";
+        }
       }
-      sidebar = parseInt(document.getElementById("sidenav").style.width)
-      sidebar = parseInt(document.getElementById("sidenav").style.marginLeft)
+      function closeMenu(e) {
+        if (e.target.classList.contains("closeham")) {
+          hamburger.style.display = "block";
+          closemenu.style.display = "none";
+          nav.style.display = "none";
+        }
+      }
 
-
-
-      
-
-    }
-
-
-  </script>
+   </script>
+  </body>
 </html>
